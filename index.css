@@ -1,0 +1,135 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+body {
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+}
+
+.border {
+
+    border: solid;
+}
+
+.ct-bg {
+    background-image: url("images/ct-bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.non-bg {
+    background-image: none;
+    background-color:white;
+}
+
+.genre-bg {
+    background-image: url("images/skybg.jpg");
+}
+
+img {
+    width: 150px;
+    height: 200px;
+    object-fit: fill;
+    text-align: left;
+}
+
+.content-pad {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.div-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.genre-div {
+    padding-left: 41%;
+
+}
+
+.genre-ddl {
+    width: 170px;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    background-color: #292929;
+    font-weight: bold;
+}
+
+.genre-ddl:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px #FF99CC;
+}
+
+.dur-ddl {
+    width: 100px;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 12px;
+    background-color: #292929;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dur-ddl:hover {
+    background-color: #FF9933;
+    color: black;
+    box-shadow: 0 0 10px #FF99CC;
+}
+
+.btn {
+    margin-top: 15px;
+    padding-bottom: 3px;
+    background-color: black;
+    border: 1px solid yellow;
+    cursor: pointer;
+    color: White;
+    width: 150px;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 12px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn:hover {
+        background-color: #FF9933;
+        color: black;
+        box-shadow: 0 0 10px #FF99CC;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.nor-content-pad {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.auto-style20 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23px;
+    margin-bottom: 28px;
+}
+
+.sm-font {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: red;
+
+}
+
